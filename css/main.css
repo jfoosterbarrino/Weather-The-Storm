@@ -1,0 +1,68 @@
+body{
+    background-image: url("https://res.cloudinary.com/dccf9vnoo/image/upload/v1653411232/pexels-photo-2486168.jpeg_wlgfuj.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* height:100vh; */
+
+}
+nav{
+    margin-bottom: 50px;
+    font-family:'Alegreya';
+    opacity: 0.9;
+}
+#form{
+    display: flex;
+    justify-content: center;
+}
+#display{
+    display: flex;
+    justify-content: center;
+}
+.city-zip{
+    background-color: black;
+    color: white;
+}
+form{
+    background-color:lightblue;
+    opacity: 0.9;
+    padding: 20px;
+    border: 2px solid black;
+    font-family:'Alegreya';
+}
+#card{
+    font-family:'Alegreya';
+    text-align: center;
+    color: white;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+#top-weather{
+    margin-top:25px;
+}
+#bottom-weather{
+    margin-top:140px;
+}
+footer{
+    height: 25%;
+    color:white;
+    margin-top:200px;
+    font-family:'Alegreya';
+    background-color:black;
+    opacity: .7;
+    text-align: center;
+    padding-top: 15px;
+}
+body,html{
+    height: 100%;
+    margin:0px;
+}
+#img{
+    opacity: 0.9;
+}
