@@ -36,6 +36,12 @@ form{
     text-align: center;
     color: white;
 }
+.center{
+    position: absolute;
+    left:50%;
+    top: 45%;
+    transform: translate(-50%,-50%)
+}
 
 .container{
     display:flex;
@@ -50,14 +56,19 @@ form{
     margin-top:140px;
 }
 footer{
-    height: 25%;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, -50%);
+    height: 18%;
+    width:100%;
     color:white;
-    margin-top:200px;
+    margin-top:100px;
     font-family:'Alegreya';
     background-color:black;
     opacity: .7;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 body,html{
     height: 100%;
